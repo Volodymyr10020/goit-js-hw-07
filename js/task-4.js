@@ -9,7 +9,7 @@ form.addEventListener("submit", (event) => {
         alert("All form fields must be filled in");
         return;
       }
-      formData[elementName] = trimmedValue;
+      formData[element.name] = trimmedValue;
     }
   }
   console.log(formData);
